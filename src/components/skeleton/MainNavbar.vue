@@ -10,6 +10,19 @@
         {{ link[1] }}
       </router-link>
     </div>
+    <div class="hidden md:flex mx-3 alert bg-warning shadow-lg">
+      <p>
+        Мы против войны в Украине!
+        <a
+          class="mx-1 underline"
+          href="https://ukraine-helpers.com/?lang=ru"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Чем можно помочь?</a
+        >
+      </p>
+    </div>
     <router-link to="/" class="mx-2">
       <img src="../../assets/navlogo.png" alt="" />
     </router-link>
